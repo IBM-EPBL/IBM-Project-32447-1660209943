@@ -2,7 +2,7 @@
 <?php 
 $email = $_SESSION['email'];
 if($email == false){
-  header('Location: login-user.php');
+  header('Location: login.php');
 }
 ?>
 <!DOCTYPE html>
